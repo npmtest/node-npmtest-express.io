@@ -1,6 +1,6 @@
 # npmtest-express.io
 
-#### test coverage for  [express.io (v1.1.13)](http://express-io.org)  [![npm package](https://img.shields.io/npm/v/npmtest-express.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express.io.svg)](https://travis-ci.org/npmtest/node-npmtest-express.io)
+#### basic test coverage for  [express.io (v1.1.13)](http://express-io.org)  [![npm package](https://img.shields.io/npm/v/npmtest-express.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express.io.svg)](https://travis-ci.org/npmtest/node-npmtest-express.io)
 
 #### Realtime-web framework for nodejs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express.io/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express.io/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express.io/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express.io/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express.io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express.io/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express.io/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express.io/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express.io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express.io/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express.io/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express.io/build/coverage.html/index.html)
 
@@ -107,7 +107,8 @@
         "prepublish": "echo $(pwd) > /tmp/.pwd; ./node_modules/coffee-script/bin/coffee -o compiled/ -c lib/;",
         "test": "./node_modules/mocha/bin/mocha test/test.coffee"
     },
-    "version": "1.1.13"
+    "version": "1.1.13",
+    "bin": {}
 }
 ```
 

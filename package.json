@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [express.io (v1.1.13)](http://express-io.org)  [![npm package](https://img.shields.io/npm/v/npmtest-express.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express.io.svg)](https://travis-ci.org/npmtest/node-npmtest-express.io)",
+    "description": "#### basic test coverage for  [express.io (v1.1.13)](http://express-io.org)  [![npm package](https://img.shields.io/npm/v/npmtest-express.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express.io.svg)](https://travis-ci.org/npmtest/node-npmtest-express.io)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "express.io": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
